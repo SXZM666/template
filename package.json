@@ -1,0 +1,54 @@
+{
+  "name": "vite-boot",
+  "version": "0.0.1",
+  "description": "Vite starter template with TailwindCSS",
+  "private": true,
+  "packageManager": "pnpm@6.32.3",
+  "main": "src/main.ts",
+  "keywords": [
+    "viteBoot",
+    "vite-boot",
+    "vite",
+    "tailwindcss",
+    "fast",
+    "boot"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "vue-tsc --noEmit",
+    "preview": "vite preview",
+    "prettier": "prettier --write ."
+  },
+  "dependencies": {
+    "@vueuse/core": "^8.3.1",
+    "daisyui": "^2.14.3",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.13",
+    "sass": "^1.50.1",
+    "theme-change": "^2.0.2",
+    "vue": "^3.2.33",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.4.1",
+    "@tailwindcss/line-clamp": "^0.3.1",
+    "@tailwindcss/typography": "^0.5.2",
+    "@types/nprogress": "^0.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "autoprefixer": "^10.4.5",
+    "pnpm": "^6.32.9",
+    "postcss": "^8.4.12",
+    "prettier": "^2.6.2",
+    "prettier-plugin-tailwindcss": "^0.1.10",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.5",
+    "vue-tsc": "^0.29.8"
+  }
+}
